@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header 
+    <pilorama/header 
       className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white shadow-md py-2' : 'py-4'
       }`}
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
           </nav>
         </div>
       </div>
-    </header>
+    </pilorama/header>
   );
 };
 
