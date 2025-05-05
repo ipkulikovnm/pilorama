@@ -101,14 +101,14 @@ const BlogSection: React.FC = () => {
                     {post.author}
                   </span>
                 </div>
-                <a href={post.link}>
+                <Link to={post.link.replace("/", "")}>
                   <h3 className="text-xl font-semibold mb-3 hover:text-green-700 transition-colors">
                     {post.title}
                   </h3>
-                </a>
+                </Link>
                 <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                <a
-                  href={post.link}
+                <Link
+                  to={post.link.replace("/", "")}
                   className="inline-flex items-center text-green-700 font-medium hover:text-green-800"
                 >
                   Читать далее
@@ -126,7 +126,7 @@ const BlogSection: React.FC = () => {
                       d="M14 5l7 7m0 0l-7 7m7-7H3"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
