@@ -39,7 +39,7 @@ const ProductsSection: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/fanera.webp"
+                src="/pilorama/pilorama/fanera.webp"
                 alt="Фанера высшего качества"
                 width="600"
                 height="400"
