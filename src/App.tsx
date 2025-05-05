@@ -1,28 +1,28 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Компоненты
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import AboutUs from './components/AboutUs';
-import ProductsSection from './components/ProductsSection';
-import ServicesSection from './components/ServicesSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import BlogSection from './components/BlogSection';
-import CTA from './components/CTA';
-import ContactSection from './components/ContactSection';
-import Footer from './components/Footer';
-import PlywoodSection from './components/PlywoodSection';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import AboutUs from "./components/AboutUs";
+import ProductsSection from "./components/ProductsSection";
+import ServicesSection from "./components/ServicesSection";
+import TestimonialsSection from "./components/TestimonialsSection";
+import BlogSection from "./components/BlogSection";
+import CTA from "./components/CTA";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import PlywoodSection from "./components/PlywoodSection";
 
 const HomePage: React.FC = () => {
   return (
     <>
       <Hero />
       <AboutUs />
-      <ProductsSection />
+      {/* <ProductsSection /> */}
       <PlywoodSection />
       <ServicesSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <BlogSection />
       <CTA />
       <ContactSection />
